@@ -19,7 +19,18 @@ font-family: 'Roboto', sans-serif; */
 }
 
 
-/* logo */
+/*----------------header-------------------- */
+
+.header {
+    width: 1600px;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/*----------------logo-------------------- */
 
 .logo-link {
     font-family: 'Raleway', sans-serif;
@@ -49,6 +60,12 @@ font-family: 'Roboto', sans-serif; */
     letter-spacing: 0.02em;
 }
 
+.nav-ul {
+    list-style-type: none;
+    display: flex;
+    column-gap: 35px;
+}
+
 .nav-link {
     text-decoration: none;
     color: var(--color-black);
@@ -69,7 +86,9 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .nav-2 {
+    display: flex;
     text-decoration: none;
+    list-style-type: none;
     color: var(--color-black);
     font-style: normal;
     font-weight: 500;
@@ -102,6 +121,20 @@ font-family: 'Roboto', sans-serif; */
 
 /* sec-1 */
 
+.sc-1 {
+    width: 1600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sc-1-c {
+    width: 696px;
+    height: 120px;
+}
+
 .sc1-h1 {
     font-style: normal;
     font-weight: 900;
@@ -129,9 +162,21 @@ font-family: 'Roboto', sans-serif; */
 
 /* sec-2 */
 
+.sc-2 {
+    display: flex;
+    margin: auto;
+    width: 1600px;
+}
+
 .sc2-h2 {
     color: var(--color-white);
     /* ten naglowek mial byc po prostu usuniety wic dalek kolor bialy dla nie chyba ze jest inny sposob jak to zrobic? */
+}
+
+.sc-2-l {
+    width: 1200px;
+    height: 101px;
+    display: flex;
 }
 
 .sc2-h3 {
@@ -153,7 +198,13 @@ font-family: 'Roboto', sans-serif; */
 
 /* sec-3 */
 
+.sc-3 {
+    margin-top: 250px;
+}
+
 .sc3-h2 {
+    display: flex;
+    justify-content: center;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -161,8 +212,25 @@ font-family: 'Roboto', sans-serif; */
     color: var(--color-black);
 }
 
+.sc-3-ul {
+    margin-inline: auto;
+    display: flex;
+    width: 1200px;
+    height: 386px;
+    list-style-type: none;
+}
+
+.sc-3-img {
+    padding: 15px;
+}
+
 
 /* sec-4 */
+
+.sc-4 {
+    width: 1600px;
+    height: 648px;
+}
 
 .sc4-2 {
     font-style: normal;
@@ -171,6 +239,21 @@ font-family: 'Roboto', sans-serif; */
     letter-spacing: 0.03em;
     color: var(--color-black);
     line-height: 1.1;
+    display: flex;
+    justify-content: center;
+    padding-block: 10px;
+}
+
+.sc-4-ul {
+    display: flex;
+    flex-direction: row;
+    margin-inline: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    list-style-type: none;
+    height: 368px;
+    width: 368px;
 }
 
 .sc4-h3 {
@@ -196,6 +279,19 @@ font-family: 'Roboto', sans-serif; */
 
 /* logo-2 */
 
+.logo-2 {
+    margin-left: 450px;
+}
+
+.footer {
+    width: 1600px;
+    height: 252px;
+}
+
+.address {
+    margin-left: 200px;
+}
+
 .address-p {
     font-style: normal;
     font-weight: 400;
@@ -203,9 +299,15 @@ font-family: 'Roboto', sans-serif; */
     letter-spacing: 0.03em;
     color: var(--color-black);
     line-height: 1.7;
+    margin-left: 200px;
     /* na razie dalem kolor czarny bo nie widac napisu 
     na bialym tle a nie chce tootera ustawia bo jak 
     zaczne znow wszystko popierdziele :) domyslny kolor bialy */
+}
+
+.address-ul {
+    margin-left: 200px;
+    list-style-type: none;
 }
 
 .address-link {
