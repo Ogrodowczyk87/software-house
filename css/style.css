@@ -4,7 +4,6 @@ font-family: 'Roboto', sans-serif; */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .body {
@@ -212,6 +211,7 @@ font-family: 'Roboto', sans-serif; */
 .sc-3 {
     width: 1600px;
     height: 600px;
+    margin: auto;
 }
 
 .sc3-h2 {
@@ -258,14 +258,17 @@ font-family: 'Roboto', sans-serif; */
 
 .sc-4-ul {
     display: flex;
-    flex-direction: row;
-    margin-inline: auto;
+    margin: auto;
     justify-content: center;
     align-items: center;
     padding: 15px;
     list-style-type: none;
     height: 368px;
     width: 368px;
+}
+
+.sc-4-li {
+    padding: 15px;
 }
 
 .sc4-h3 {
@@ -292,7 +295,7 @@ font-family: 'Roboto', sans-serif; */
 /* logo-2 */
 
 .logo-2 {
-    margin-left: 450px;
+    margin-left: 200px;
 }
 
 .footer {
@@ -307,6 +310,7 @@ font-family: 'Roboto', sans-serif; */
 .address-p {
     font-style: normal;
     font-weight: 400;
+    width: 1600px;
     font-size: 14px;
     letter-spacing: 0.03em;
     color: var(--color-black);
@@ -320,6 +324,7 @@ font-family: 'Roboto', sans-serif; */
 .address-ul {
     margin-left: 200px;
     list-style-type: none;
+    width: 1600px;
 }
 
 .address-link {
