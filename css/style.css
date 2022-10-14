@@ -10,6 +10,8 @@ font-family: 'Roboto', sans-serif; */
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 :root {
@@ -364,12 +366,28 @@ body {
 
 /* buttons-p */
 
+.container-buttons-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.buttons-p-ul {
+    padding-top: 94px;
+    list-style-type: none;
+    display: flex;
+}
+
 .buttons-p {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     border-radius: 4px;
+    margin-left: 510px;
+    margin-right: 518px;
 }
 
 .button-p {
