@@ -30,17 +30,17 @@ body {
     align-items: center;
     width: 1200px;
     margin: 0 auto;
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 
 /* logo */
 
 .logo {
+    display: flex;
+    justify-content: flex-start;
     padding-top: 24px;
     padding-bottom: 25px;
-    margin-left: 215px;
-    margin-right: 93px;
 }
 
 .logo-link {
