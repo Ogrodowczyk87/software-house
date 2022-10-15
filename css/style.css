@@ -294,6 +294,10 @@ body {
 }
 
 .sc4-h3 {
+    justify-content: center;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 10px;
     font-style: normal;
     font-size: 16px;
     letter-spacing: 0.03em;
@@ -302,6 +306,9 @@ body {
 }
 
 .sc4-p {
+    justify-content: center;
+    display: flex;
+    padding-bottom: 30px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
