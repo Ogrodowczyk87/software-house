@@ -119,6 +119,7 @@ body {
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--color-grey);
+    text-decoration: none;
 }
 
 .nav-link2:hover {
@@ -351,6 +352,7 @@ body {
 }
 
 .address-link {
+    text-decoration: none;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
