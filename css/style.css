@@ -16,6 +16,25 @@ font-family: 'Roboto', sans-serif; */
     --color-grey: #757575;
     --color-black: #212121;
     --color-white: #F5F4FA;
+    --header-line: #ececec;
+    --background-color: #2f303a;
+}
+
+.section {
+    padding-block: 94px;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-border {
+    border-bottom: 1px solid;
+    border-color: var(--header-line);
 }
 
 
@@ -60,11 +79,6 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .nav-link:hover {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
     color: var(--hover-color)
 }
 
@@ -88,11 +102,6 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .nav-link2:hover {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
     color: var(--hover-color)
 }
 
@@ -101,6 +110,10 @@ font-family: 'Roboto', sans-serif; */
 
 
 /* sec-1 */
+
+.sc-1-background {
+    background: var(--background-color)
+}
 
 .sc1-h1 {
     font-style: normal;
