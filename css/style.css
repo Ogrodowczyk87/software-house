@@ -126,11 +126,23 @@ font-family: 'Roboto', sans-serif; */
     background: var(--background-color)
 }
 
+
+/* nie wiem o co chodzi z tlem potem to naprawie */
+
+.sc-1-wrap {
+    padding: 106px 0;
+}
+
 .sc1-h1 {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.3;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.06em;
+    width: 696px;
+    margin: 0 auto 30px;
 }
 
 .button-sc-1 {
@@ -148,14 +160,29 @@ font-family: 'Roboto', sans-serif; */
     letter-spacing: 0.06em;
     color: var(--color-white);
     cursor: pointer;
+    margin: 0 auto;
+    display: block;
 }
 
 
 /* sec-2 */
 
 .sc2-h2 {
-    color: var(--color-white);
-    /* ten naglowek mial byc po prostu usuniety wic dalek kolor bialy dla nie chyba ze jest inny sposob jak to zrobic? */
+    display: none;
+}
+
+.sc-2-l {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 94px;
+}
+
+.sc-2-wrap li {
+    min-width: 270px;
+    flex-basis: calc((100% - 90px) / 4);
 }
 
 .sc2-h3 {
@@ -174,15 +201,26 @@ font-family: 'Roboto', sans-serif; */
     color: var(--color-grey);
 }
 
-
-/* sec-3 */
-
 .sc3-h2 {
-    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
-    color: var(--color-black);
+    text-align: center;
+}
+
+.pictures-wrap ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.pictures-wrap li {
+    flex-basis: calc((100% - 60px) / 3);
 }
 
 
