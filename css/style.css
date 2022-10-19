@@ -42,6 +42,7 @@ font-family: 'Roboto', sans-serif; */
 /* logo */
 
 .logo-link {
+    display: block;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     font-family: Raleway;
@@ -276,45 +277,56 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .sc-4-wrap li {
-    padding-bottom: 30px;
     background: var(--color-white);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    padding-bottom: 30px;
+}
+
+.sc-4-wrap {
+    padding-bottom: 94px;
 }
 
 
 /*----------------footer------------------- */
 
-
-/* logo-2 */
-
-.address-p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    color: var(--color-black);
-    line-height: 1.7;
-    /* na razie dalem kolor czarny bo nie widac napisu 
-    na bialym tle a nie chce tootera ustawia bo jak 
-    zaczne znow wszystko popierdziele :) domyslny kolor bialy */
+.footer-wrap {
+    background: var(--background-color)
 }
 
-.address-link {
-    font-style: normal;
-    font-weight: 500;
+.address-p {
     font-size: 14px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
+    line-height: 1.7;
+    margin: 0;
+    font-style: normal;
+}
+
+.logo-f {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.address-ul {
+    list-style-type: none;
+}
+
+.address a {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 00.03em;
+    font-style: normal;
     color: var(--color-grey);
 }
 
-.address-link:hover {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.02em;
+.address li {
+    margin-top: 9px;
+}
+
+.address a:hover {
     color: var(--hover-color);
-    line-height: 1.7;
 }
 
 
