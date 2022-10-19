@@ -43,66 +43,77 @@ font-family: 'Roboto', sans-serif; */
 .logo-link {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
-    font-style: normal;
+    font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
+    line-height: 1.19;
     color: var(--color-black);
+    margin-right: 93px;
 }
 
-.logo-link>span {
+.web {
+    color: var(--hover-color)
+}
+
+.studio:hover {
     color: var(--hover-color)
 }
 
 
 /*----------------navigation-------------------- */
 
+.nav-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
 .nav {
-    text-decoration: none;
-    color: var(--color-black);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
+    flex-grow: 1;
 }
 
 .nav-link {
     text-decoration: none;
-    color: var(--color-black);
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-}
-
-.nav-link:hover {
-    color: var(--hover-color)
-}
-
-.nav-2 {
-    text-decoration: none;
     color: var(--color-black);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav li:nth-child(-n +2) {
+    margin-right: 46px;
+}
+
+.nav-2-wrap li:nth-child(-n +2) {
+    margin-right: 50px;
+}
+
+.nav-2 li {
+    display: inline;
 }
 
 .nav-link2 {
-    font-style: normal;
+    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--color-grey);
 }
 
+.nav-link:hover {
+    color: var(--hover-color);
+}
+
 .nav-link2:hover {
-    color: var(--hover-color)
+    color: var(--hover-color);
 }
 
 
