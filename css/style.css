@@ -4,7 +4,6 @@ font-family: 'Roboto', sans-serif; */
 * {
     margin: 0px;
     padding: 0px;
-    background-color: #FFFFFF;
 }
 
 .body {
@@ -146,6 +145,7 @@ font-family: 'Roboto', sans-serif; */
     letter-spacing: 0.06em;
     width: 696px;
     margin: 0 auto 30px;
+    color: var(--color-white);
 }
 
 .button-sc-1 {
@@ -194,6 +194,7 @@ font-family: 'Roboto', sans-serif; */
     line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .sc2-p {
@@ -297,11 +298,16 @@ font-family: 'Roboto', sans-serif; */
     line-height: 1.7;
     margin: 0;
     font-style: normal;
+    color: var(--color-white)
 }
 
 .logo-f {
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.studio-f {
+    color: var(--color-white);
 }
 
 .address-ul {
@@ -370,6 +376,10 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .content-p-l {
+    display: block;
+}
+
+.content-p-l img {
     display: block;
 }
 
