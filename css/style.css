@@ -451,6 +451,12 @@ font-family: 'Roboto', sans-serif; */
     margin-right: 10px;
 }
 
+.nav-link2:hover svg,
+.nav-link2:focus svg {
+    color: var(--color-grey);
+    --color4: var(--hover-color);
+}
+
 
 /*----------------main icon svg-------------------- */
 
@@ -502,4 +508,15 @@ font-family: 'Roboto', sans-serif; */
     align-items: center;
     border: solid 1px #AFB1B8;
     border-radius: 4px;
+}
+
+
+/*----------------section 4 social icons-------------------- */
+
+.sc-4-social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    padding-top: 16px;
 }
