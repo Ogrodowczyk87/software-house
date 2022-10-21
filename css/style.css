@@ -125,7 +125,7 @@ font-family: 'Roboto', sans-serif; */
 /* sec-1 */
 
 .sc-1-background {
-    background: var(--background-color)
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main-background.jpg);
 }
 
 
@@ -289,7 +289,24 @@ font-family: 'Roboto', sans-serif; */
 /*----------------footer------------------- */
 
 .footer-wrap {
-    background: var(--background-color)
+    background: var(--background-color);
+}
+
+.social-media p {
+    color: var(--color-white);
+    line-height: 1.12;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+
+.social-media {
+    padding-bottom: 100px;
+    padding-top: 72px;
+}
+
+.footer-box {
+    display: flex;
 }
 
 .address-p {
@@ -304,6 +321,7 @@ font-family: 'Roboto', sans-serif; */
 .logo-f {
     padding-top: 60px;
     padding-bottom: 60px;
+    margin-right: 70px;
 }
 
 .studio-f {
@@ -424,4 +442,64 @@ font-family: 'Roboto', sans-serif; */
     letter-spacing: 0.03em;
     color: var(--color-grey);
     line-height: 1.8;
+}
+
+
+/*----------------nav icon svg-------------------- */
+
+.nav-icon {
+    margin-right: 10px;
+}
+
+
+/*----------------main icon svg-------------------- */
+
+.main-icon {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.main-icon li {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-light-grey);
+    border-radius: 4px;
+}
+
+
+/*----------------our clients icons-------------------- */
+
+.sc-5-h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 50px;
+    margin-top: 0;
+    letter-spacing: 0.03em;
+    color: var(--color-black);
+    line-height: 1.6;
+    text-align: center;
+}
+
+.client-icons {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.client-icons li {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #AFB1B8;
+    border-radius: 4px;
 }
