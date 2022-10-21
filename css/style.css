@@ -520,3 +520,9 @@ font-family: 'Roboto', sans-serif; */
     cursor: pointer;
     padding-top: 16px;
 }
+
+.sc-4-social-icons svg:hover {
+    color: var(--hover-color);
+    --color3: var(--color-white);
+    --color5: var(--hover-color);
+}
