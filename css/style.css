@@ -511,7 +511,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 
-/*----------------section 4 social icons-------------------- */
+/*----------------section 4 vsg icons-------------------- */
 
 .sc-4-social-icons {
     display: flex;
@@ -519,11 +519,28 @@ font-family: 'Roboto', sans-serif; */
     gap: 10px;
     cursor: pointer;
     padding-top: 16px;
+    fill: #AFB1B8;
+    border-radius: 50%;
+    background-color: #fff;
+    background-position: 12px 12px;
 }
 
 .sc-4-social-icons svg:hover,
 .sc-4-social-icons svg:focus {
     background-color: #2196F3;
     fill: #fff;
+    transition: all 0.2s;
+}
+
+
+/*----------------section 4 social icons-------------------- */
+
+.client-icons {
+    fill: #757575;
+}
+
+.client-icons svg:hover,
+.client-icons svg:focus {
+    fill: #2196F3;
     transition: all 0.2s;
 }
