@@ -128,9 +128,6 @@ font-family: 'Roboto', sans-serif; */
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main-background.jpg);
 }
 
-
-/* nie wiem o co chodzi z tlem potem to naprawie */
-
 .sc-1-wrap {
     padding: 106px 0;
 }
@@ -427,6 +424,14 @@ font-family: 'Roboto', sans-serif; */
     color: var(--color-white);
 }
 
+.content-p-l li:hover {
+    flex-basis: calc((100% - 60px) / 3);
+    color: var(--color-white);
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .content-p-h3 {
     font-style: normal;
     font-size: 16px;
@@ -513,6 +518,11 @@ font-family: 'Roboto', sans-serif; */
 
 /*----------------section 4 vsg icons-------------------- */
 
+.sc-4-social-icon svg {
+    width: 44;
+    height: 44;
+}
+
 .sc-4-social-icons {
     display: flex;
     justify-content: center;
@@ -533,7 +543,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 
-/*----------------section 4 social icons-------------------- */
+/*----------------clietns svg icons-------------------- */
 
 .client-icons {
     fill: #757575;
@@ -541,6 +551,19 @@ font-family: 'Roboto', sans-serif; */
 
 .client-icons svg:hover,
 .client-icons svg:focus {
+    fill: #2196F3;
+    transition: all 0.2s;
+}
+
+
+/*----------------footer svg icons-------------------- */
+
+.icon-footer-wrap {
+    fill: #fff;
+}
+
+.icon-footer-wrap svg:hover,
+.icon-footer-wrap svg:focus {
     fill: #2196F3;
     transition: all 0.2s;
 }
