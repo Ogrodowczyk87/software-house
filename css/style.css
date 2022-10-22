@@ -515,13 +515,20 @@ font-family: 'Roboto', sans-serif; */
     border-radius: 4px;
 }
 
+.client-icons {
+    fill: #757575;
+}
+
+.client-icons li:hover,
+.client-icons li:focus {
+    fill: #2196F3;
+    transition: all 0.2s;
+    border: solid 1px #2196F3;
+    border-radius: 4px;
+}
+
 
 /*----------------section 4 vsg icons-------------------- */
-
-.sc-4-social-icon svg {
-    width: 44;
-    height: 44;
-}
 
 .sc-4-social-icons {
     display: flex;
@@ -530,40 +537,53 @@ font-family: 'Roboto', sans-serif; */
     cursor: pointer;
     padding-top: 16px;
     fill: #AFB1B8;
-    border-radius: 50%;
-    background-color: #fff;
-    background-position: 12px 12px;
 }
 
-.sc-4-social-icons svg:hover,
-.sc-4-social-icons svg:focus {
+.sc-4-social-icons a {
+    display: flex;
+    width: 44;
+    height: 44;
+    justify-content: center;
+    align-items: center;
+}
+
+.sc-4-social-icons a:hover,
+.sc-4-social-icons a:focus {
     background-color: #2196F3;
+    display: flex;
     fill: #fff;
-    transition: all 0.2s;
-}
-
-
-/*----------------clietns svg icons-------------------- */
-
-.client-icons {
-    fill: #757575;
-}
-
-.client-icons svg:hover,
-.client-icons svg:focus {
-    fill: #2196F3;
-    transition: all 0.2s;
+    transition: all 0.4s;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
 }
 
 
 /*----------------footer svg icons-------------------- */
 
 .icon-footer-wrap {
+    display: flex;
     fill: #fff;
+    gap: 10px;
 }
 
-.icon-footer-wrap svg:hover,
-.icon-footer-wrap svg:focus {
-    fill: #2196F3;
-    transition: all 0.2s;
+.icon-footer-wrap a {
+    display: flex;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.icon-footer-wrap a:hover,
+.icon-footer-wrap a:focus {
+    background-color: #2196F3;
+    display: flex;
+    fill: #fff;
+    transition: all 0.4s;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
 }
