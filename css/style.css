@@ -521,8 +521,7 @@ font-family: 'Roboto', sans-serif; */
     padding-top: 16px;
 }
 
-.sc-4-social-icons svg:hover {
-    color: var(--hover-color);
-    --color3: var(--color-white);
-    --color5: var(--hover-color);
+.social-icon icon-linkedin svg:hover {
+    fill: rgba(217, 22, 22, 0.12);
+    --color4: blue;
 }
