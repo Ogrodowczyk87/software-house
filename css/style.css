@@ -535,6 +535,7 @@ font-family: 'Roboto', sans-serif; */
     fill: var(--light-grey-2);
     gap: 10px;
     margin-left: 32px;
+    /* nie wiem czy to dobrze zrobilem zeby to wysrodkowac wszystko dalem margin i wyglada ok ale pewnie mozna to lepiej zrobic */
 }
 
 .sc-4-social-icons a {
