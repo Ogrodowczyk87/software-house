@@ -19,6 +19,7 @@ font-family: 'Roboto', sans-serif; */
     --background-color: #2f303a;
     --color-white: #fff;
     --portfolio-libe: #eee;
+    --light-grey-2: #AFB1B8;
 }
 
 .section {
@@ -452,9 +453,12 @@ font-family: 'Roboto', sans-serif; */
     margin-right: 10px;
 }
 
-.nav-link2:hover,
-.nav-link2:focus {
-    fill: #2196F3;
+.nav-link2 {
+    fill: var(--color-grey);
+}
+
+.nav-link2:hover {
+    fill: var(--hover-color);
 }
 
 
@@ -506,19 +510,19 @@ font-family: 'Roboto', sans-serif; */
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: solid 1px #AFB1B8;
+    border: solid 1px var(--light-grey-2);
     border-radius: 4px;
 }
 
 .client-icons {
-    fill: #757575;
+    fill: var(--color-grey);
 }
 
 .client-icons li:hover,
 .client-icons li:focus {
-    fill: #2196F3;
+    fill: var(--hover-color);
     transition: all 0.2s;
-    border: solid 1px #2196F3;
+    border: solid 1px var(--hover-color);
     border-radius: 4px;
 }
 
@@ -531,7 +535,7 @@ font-family: 'Roboto', sans-serif; */
     gap: 10px;
     cursor: pointer;
     padding-top: 16px;
-    fill: #AFB1B8;
+    fill: var(--light-grey-2);
 }
 
 .sc-4-social-icons a {
@@ -544,9 +548,9 @@ font-family: 'Roboto', sans-serif; */
 
 .sc-4-social-icons a:hover,
 .sc-4-social-icons a:focus {
-    background-color: #2196F3;
+    background-color: var(--hover-color);
     display: flex;
-    fill: #fff;
+    fill: var(--color-white);
     transition: all 0.4s;
     border-radius: 50%;
     width: 44px;
@@ -558,7 +562,7 @@ font-family: 'Roboto', sans-serif; */
 
 .icon-footer-wrap {
     display: flex;
-    fill: #fff;
+    fill: var(--color-white);
     gap: 10px;
 }
 
@@ -574,9 +578,9 @@ font-family: 'Roboto', sans-serif; */
 
 .icon-footer-wrap a:hover,
 .icon-footer-wrap a:focus {
-    background-color: #2196F3;
+    background-color: var(--hover-color);
     display: flex;
-    fill: #fff;
+    fill: var(--color-white);
     transition: all 0.4s;
     border-radius: 50%;
     width: 44px;
