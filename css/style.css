@@ -532,14 +532,15 @@ font-family: 'Roboto', sans-serif; */
 .sc-4-social-icons {
     margin-top: 16px;
     display: flex;
-    justify-content: center;
-    gap: 10px;
-    cursor: pointer;
     fill: var(--light-grey-2);
+    gap: 10px;
+    margin-left: 32px;
 }
 
 .sc-4-social-icons a {
     display: flex;
+    width: 44px;
+    height: 44px;
     justify-content: center;
     align-items: center;
 }
@@ -576,7 +577,6 @@ font-family: 'Roboto', sans-serif; */
 .icon-footer-wrap a:hover,
 .icon-footer-wrap a:focus {
     background-color: var(--hover-color);
-    display: flex;
     fill: var(--color-white);
     transition: all 0.4s;
     border-radius: 50%;
