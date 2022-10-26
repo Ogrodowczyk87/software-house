@@ -257,6 +257,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .sc4-h3 {
+    padding-top: 30px;
     font-style: normal;
     font-size: 16px;
     letter-spacing: 0.03em;
@@ -501,6 +502,11 @@ font-family: 'Roboto', sans-serif; */
     display: flex;
     list-style-type: none;
     gap: 30px;
+}
+
+.icon1 {
+    height: 47px;
+    width: 46px;
 }
 
 .client-icons li {
