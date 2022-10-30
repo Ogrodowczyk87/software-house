@@ -58,7 +58,7 @@
             <div class="container">
                 <div class="sc-1-wrap">
                     <h1 class="sc1-h1">EFEKTYWNE ROZWIAZANIA DLA WASZEGO BIZNESU</h1>
-                    <button class="button-sc-1" type="button">
+                    <button class="button-sc-1" type="button" data-modal-open>
                     Zamów usluge
                      </button>
                 </div>
@@ -98,19 +98,19 @@
 
                     <ul class="sc-2-l ">
                         <li>
-                            <h3 class="sc2-h3 ">Lorem, ipsum</h3>
+                            <h3 class="sc2-h3 ">całodobowe wsparcie</h3>
                             <p class="sc2-p ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci necessitatibus odio similique officia in quae quaerat obcaecati, magni ipsa numquam?</p>
                         </li>
                         <li>
-                            <h3 class="sc2-h3 ">Lorem, ipsum</h3>
+                            <h3 class="sc2-h3 ">Optymalizacja projektów</h3>
                             <p class="sc2-p ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci necessitatibus odio similique officia in quae quaerat obcaecati, magni ipsa numquam?</p>
                         </li>
                         <li>
-                            <h3 class="sc2-h3 ">Lorem, ipsum</h3>
+                            <h3 class="sc2-h3 ">Szczególowa Analiza</h3>
                             <p class="sc2-p ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci necessitatibus odio similique officia in quae quaerat obcaecati, magni ipsa numquam?</p>
                         </li>
                         <li>
-                            <h3 class="sc2-h3 ">Lorem, ipsum</h3>
+                            <h3 class="sc2-h3 ">Stawiamy na rozój</h3>
                             <p class="sc2-p ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci necessitatibus odio similique officia in quae quaerat obcaecati, magni ipsa numquam?</p>
                         </li>
                     </ul>
@@ -121,12 +121,21 @@
                     <ul>
                         <li>
                             <img src="./images/img1.jpg " alt="kodowanie schematu " width="370 " height="294 ">
+                            <div class="what-we-doing">
+                                <p>aplikacje komputerowe</p>
+                            </div>
                         </li>
                         <li>
                             <img src="./images/img2.jpg " alt="sprawdzanie respoonsywnosci " width="370 " height="294 ">
+                            <div class="what-we-doing">
+                                <p>aplikacje mobilne</p>
+                            </div>
                         </li>
                         <li>
                             <img src="./images/img3.jpg " alt="przeglad palety rgb " width="370 " height="294 ">
+                            <div class="what-we-doing">
+                                <p>roziwzywania graficzne</p>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -339,6 +348,21 @@
             </div>
         </div>
     </footer>
+
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="close-btn" data-modal-close>
+<svg width="11px" height="11px"  >
+    <use  class="bacdrop-vsg" href="./images/icons.svg#icon-Vector">afa</use>
+</svg>
+            </button>
+        </div>
+
+    </div>
+    <script src="./js/modal.js"></script>
+
+
 </body>
 
 </html>
