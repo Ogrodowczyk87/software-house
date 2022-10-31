@@ -75,7 +75,7 @@
     flex-grow: 1;
 }
 
-.nav-link {
+.nav-ul a {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -114,7 +114,7 @@
     color: var(--color-grey);
 }
 
-.nav-link:hover {
+.nav-ul a:hover {
     position: relative;
     color: var(--hover-color);
 }
@@ -126,14 +126,35 @@
 
 /*---------------- nav links after effect-------------------- */
 
-.nav-link:hover::after {
-    content: "";
-    width: 58px;
+.nav-link-portfolio {
+    position: relative;
+}
+
+.nav-ul a:hover::after {
     position: absolute;
-    bottom: -32px;
-    left: -1px;
-    border-bottom: 4px solid;
+    content: "";
+    width: 101%;
+    opacity: 1;
+    height: 4px;
+    left: 0px;
+    bottom: -32.5px;
     border-radius: 10px;
+    background: var(--hover-color);
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-ul .nav-link-portfolio:hover::after,
+.nav-ul .nav-link-portfolio:focus::after {
+    position: absolute;
+    content: "";
+    width: 101%;
+    opacity: 1;
+    height: 4px;
+    left: 0px;
+    bottom: -32.5px;
+    border-radius: 10px;
+    background: var(--hover-color);
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
