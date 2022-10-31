@@ -143,8 +143,7 @@
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-ul .nav-link-portfolio:hover::after,
-.nav-ul .nav-link-portfolio:focus::after {
+.nav-ul .nav-link-portfolio::after {
     position: absolute;
     content: "";
     width: 101%;
