@@ -129,7 +129,7 @@
 
 /*---------------- nav links after effect-------------------- */
 
-.nav-link-portfolio {
+.nav-ul {
     position: relative;
 }
 
@@ -146,16 +146,20 @@
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-ul .nav-link-portfolio::after {
-    position: absolute;
+.active-link {
+    position: relative;
+}
+
+.active-link::after {
     content: "";
+    position: absolute;
     width: 101%;
     opacity: 1;
     height: 4px;
     left: 0px;
     bottom: -32.5px;
     border-radius: 10px;
-    background: var(--hover-color);
+    background: var(--brand-color);
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
