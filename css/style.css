@@ -57,7 +57,8 @@
 }
 
 .studio:hover {
-    color: var(--hover-color)
+    color: var(--hover-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -82,11 +83,13 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--color-black);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-2-li a {
     display: inline-flex;
     align-items: flex-end;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav li {
@@ -386,6 +389,11 @@
 
 .studio-f {
     color: var(--color-white);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.studio-f:hover {
+    color: var(--hover-color);
 }
 
 .address-ul {
@@ -399,7 +407,8 @@
     line-height: 1.7;
     letter-spacing: 00.03em;
     font-style: normal;
-    color: var(--color-grey);
+    color: var(--light-grey-2);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address li {
@@ -642,7 +651,8 @@
     height: 44px;
     justify-content: center;
     align-items: center;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 50%;
 }
 
 .sc-4-social-icons a:hover,
@@ -672,7 +682,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.1);
-    transition: transform 2222250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-footer-wrap a:hover,
