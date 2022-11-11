@@ -782,7 +782,7 @@
           padding: 40px;
       }
       
-      h2 {
+      .modal h2 {
           padding-bottom: 30px;
           justify-content: center;
           font-style: normal;
