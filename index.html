@@ -60,7 +60,7 @@
             <div class="container">
                 <div class="sc-1-wrap">
                     <h1 class="sc1-h1">EFEKTYWNE ROZWIAZANIA DLA WASZEGO BIZNESU</h1>
-                    <button class="button-sc-1" type="button" data-modal-open>
+                    <button class="button-sc-1" type="button">
                     Zamów usluge
                      </button>
                 </div>
@@ -347,20 +347,93 @@
                         </a>
                     </div>
                 </div>
+                <div class="newslatter">
+                    <h2>Zapisz sapisz sie do newlattera</h2>
+                    <div class="newslatter-wrap">
+                        <input type="text" class="fotter-input" placeholder="    E-mail">
+                        <button class="newslatter-button" data-modal-open>
+                            <h3>Zapisz się</h3>
+                            <svg class="vsg-send">
+                                <use href="./images/icons.svg#icon-icon-send"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
 
 
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop " data-modal>
         <div class="modal">
             <button type="button" class="close-btn" data-modal-close>
-<svg width="11px" height="11px"  >
-    <use  class="bacdrop-vsg" href="./images/icons.svg#icon-Vector">afa</use>
-</svg>
+                <svg width="11px" height="11px"  >
+                    <use  class="bacdrop-vsg" href="./images/icons.svg#icon-Vector">afa</use>
+                </svg>
             </button>
-        </div>
 
+
+
+            <div class="modal-content">
+                <form>
+                    <h2> Zostaw swoje dane w formularzu poniżej</h2>
+
+                    <label class="label">
+                        <span>Imię</span>
+                            <span>
+                                <svg class="modal-svg" >
+                                <use href="./images/icons.svg#icon-person-black-18dp"></use></svg>
+                            </span>
+                            <input type="text"name="name" placeholder=""/>                    
+                    </label>
+                    <label class="label">
+                        <span>Telefon</span>
+                            <span>
+                                <svg class="modal-svg" >
+                                <use href="./images/icons.svg#icon-phone-black-18dp"></use></svg>
+                            </span>
+                            <input type="text"name="name" placeholder=""/>                    
+                    </label>
+                    <label class="label">
+                        <span>Email</span>
+                            <span>
+                                <svg class="modal-svg" >
+                                <use href="./images/icons.svg#icon-email-black-18dp"></use></svg>
+                            </span>
+                            <input type="text"name="name" placeholder=""/>                    
+                    </label>
+
+                    <label class="label-2">
+                        <span>Komentarz</span>
+                        <div class="textarea-wraper">
+                            <textarea placeholder="Wprowadź tekst"></textarea>
+                        </div>
+                    </label>
+
+
+                    <div class="modal-bottom-section">
+                        <label>
+                            <input type="checkbox" />
+                            <span>
+                                <svg class="modal-bottom-svg" width="8" height="18">
+                                    <use href="./images/icons.svg#icon-Vector-2">                          </use>
+                                </svg>
+                            </span>
+                            <span>Oświadczam iż akceptuję
+                            <a>Regulamin</a> i <a>Politykę Prywatności.</a>
+                            </span>
+                        </label>
+                    </div>
+
+
+
+                    <div class="button-wraper">
+                        <button class="modal-button" type="submit">Wyślij</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
     </div>
     <script src="./js/modal.js"></script>
 
