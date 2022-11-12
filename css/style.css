@@ -911,46 +911,12 @@
 
       /* modal-bottom-section */
 
-      .modal-bottom-section {
-          margin-top: 20px;
-          margin-bottom: 30px;
-          color: var(--color-grey);
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 1.71;
-      }
+.checkbox-wraper {
+    margin-top: 20px;
+    border: 1px solid black;
+}
 
-      .modal-bottom-section label {
-          display: flex;
-        flex-direction: row;
-      }
+.checkbox-label {
+    display: flex;
+}
 
-      .modal-bottom-section a {
-        color: var(--hover-color);
-        text-decoration: underline;
-        cursor: pointer;
-      }
-
-      
-      .checkbox {
-          position: relative;
-          margin-top: 4px;
-          width: 16px;
-          height: 15px;
-          border: 2px solid var(--color-black);
-          border-radius: 4px;
-          margin-right: 8px;
-      }
-
-      .checkbox :first-child{
-        margin-top: 2px;
-        margin-right: 1px;
-      }
-
-      .modal-bottom-svg {
-          position: absolute;
-          width: 11px;
-          height: 8px;
-          margin-top: 2xp;
-          fill: var(--color-white);
-      }
