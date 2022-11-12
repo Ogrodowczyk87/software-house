@@ -911,12 +911,24 @@
 
       /* modal-bottom-section */
 
-.checkbox-wraper {
-    margin-top: 20px;
-    border: 1px solid black;
-}
+      .checkbox-wraper {
+          margin-top: 20px;
+          border: 1px solid black;
+      }
 
-.checkbox-label {
-    display: flex;
-}
+      .checkbox-label {
+          display: flex;
+      }
 
+      .order-checkbox-span {
+          position: relative;
+          margin-right: 8px;
+          width: 16px;
+          height: 15px;
+      }
+
+      .order-svg {
+        display: flex;
+          position: absolute;
+          margin-right: 8px;
+      }
