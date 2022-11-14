@@ -913,22 +913,36 @@
 
       .checkbox-wraper {
           margin-top: 20px;
-          border: 1px solid black;
+          margin-bottom: 30px;
       }
 
       .checkbox-label {
-          display: flex;
+          position: relative;
+      }
+
+      .order-checkbox {
+        position: absolute;
+        opacity: 100%;
+        fill: var(--color-white);
+        width: 1px;
+        height: 1px;
       }
 
       .order-checkbox-span {
-          position: relative;
-          margin-right: 8px;
+          position: absolute;
           width: 16px;
           height: 15px;
+          border: 2px solid black;
+          border-radius: 4px;
+          margin-top: 2px;
       }
 
       .order-svg {
-        display: flex;
+          display: flex;
           position: absolute;
-          margin-right: 8px;
+          margin-top: 1px;
+      }
+
+      .checkbox-label :nth-child(3) {
+        margin-left: 20px;
       }
