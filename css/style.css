@@ -752,6 +752,7 @@
           line-height: 1.17;
           margin-top: 72px;
           margin-bottom: 20px;
+          text-transform: uppercase;
       }
 
       .fotter-input {
@@ -891,24 +892,22 @@
           margin-bottom: 4px;
       }
 
-      .textarea-wraper {
+      .label-2 :nth-child(2) {
           width: 448px;
           height: 120px;
           border: 1px var(--light-grey-2) solid;
           border-radius: 4px;
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          resize: none;
+          padding-block: 12px;
+          padding-inline: 16px;
+          outline: none;
+          font-size: 12px;
+          line-height: 1.71;
+          color: var(--light-grey-2)
       }
 
-      .textarea-wraper textarea {
-          height: 96px;
-          width: 416px;
-          margin-left: 16px;
-          margin-top: 12px;
-          resize: none;
-          outline: none;
-          border: none;
-          color: var(--light-grey-2);
-      }
+
 
       /* modal-bottom-section */
 
@@ -940,6 +939,8 @@
           transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
       }
 
+
+
       .order-svg {
           display: flex;
           position: absolute;
@@ -951,6 +952,11 @@
           margin-left: 20px;
           color: var(--color-grey);
       }
+
+      .checkbox-label a {
+          color: var(--hover-color);
+      }
+
 
       .order-checkbox:checked+.order-checkbox-span {
           background-color: var(--hover-color);
