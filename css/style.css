@@ -801,7 +801,7 @@
       }
 
       .modal h2 {
-          padding-bottom: 30px;
+          padding-bottom: 12px;
           justify-content: center;
           font-style: normal;
           font-weight: 700;
@@ -921,11 +921,11 @@
       }
 
       .order-checkbox {
-        position: absolute;
-        opacity: 100%;
-        fill: var(--color-white);
-        width: 1px;
-        height: 1px;
+          position: absolute;
+          opacity: 100%;
+          fill: var(--color-white);
+          width: 1px;
+          height: 1px;
       }
 
       .order-checkbox-span {
@@ -935,14 +935,28 @@
           border: 2px solid black;
           border-radius: 4px;
           margin-top: 2px;
+          cursor: pointer;
       }
 
       .order-svg {
           display: flex;
           position: absolute;
           margin-top: 1px;
+          fill: var(--color-white);
       }
 
       .checkbox-label :nth-child(3) {
-        margin-left: 20px;
+          margin-left: 20px;
+          color: var(--color-grey);
+      }
+
+      .order-checkbox:checked+.order-checkbox-span {
+          background-color: var(--hover-color);
+          border: 2px solid var(--hover-color);
+      }
+
+      .order-checkbox:focus+.order-checkbox-custom {
+          border-color: var(--hover-color);
+          outline: 2px solid rgba(33 150 243 / 0.25);
+          outline-offset: 1px;
       }
