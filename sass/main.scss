@@ -1,0 +1,29 @@
+/*utils*/
+
+@import "./utils/variables";
+@import "./utils/reset";
+@import "./utils/portfolio-overflow";
+@import "./utils/is-hidden";
+@import "./utils/overlay";
+
+/*componenets*/
+
+@import "./components/logo";
+@import "./components/navigation";
+@import "./components/main";
+@import "./components/services";
+@import "./components/about-us";
+@import "./components/our-team";
+@import "./components/our-team-icon";
+@import "./components/our-clients";
+@import "./components/footer";
+@import "./components/footer-icons";
+@import "./components/footer-logo";
+@import "./components/footer-address";
+@import "./components/footer-newsletter";
+@import "./components/portfolio-buttons";
+@import "./components/portfolio-cards";
+// @import "./components/backdrop";
+@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/modal-form";

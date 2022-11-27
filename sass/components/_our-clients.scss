@@ -1,0 +1,42 @@
+// <============== our team ==============>
+.our-clients {
+    padding-block: 94px;
+}
+
+.our-clients__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 50px;
+    margin-top: 0;
+    letter-spacing: 0.03em;
+    color: var(--color-black);
+    line-height: 1.6;
+    text-align: center;
+}
+
+.our-clients__list {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.our-clients__item {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px var(--light-grey-2);
+    border-radius: 4px;
+    fill: var(--color-grey);
+    &:hover,
+    &focus {
+        fill: var(--hover-color);
+        transition: all 0.2s;
+        border: solid 1px var(--hover-color);
+        border-radius: 4px;
+    }
+}

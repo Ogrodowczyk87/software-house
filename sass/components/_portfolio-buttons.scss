@@ -1,0 +1,28 @@
+.filter__wrap {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.filter__item {
+    list-style: none;
+    display: inline;
+}
+
+.filter__button {
+    background: var(--color-light-grey);
+    color: var(--color-black);
+    border-radius: 4px;
+    border-style: none;
+    cursor: pointer;
+    padding: 6px 22px;
+    border: none;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.6;
+    &:hover {
+        background: var(--hover-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: var(--color-white);
+    }
+}

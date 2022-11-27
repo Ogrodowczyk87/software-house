@@ -1,0 +1,25 @@
+.header-nav__link-agency--overlay::after {
+    position: absolute;
+    bottom: -32px;
+    left: -1px;
+    content: "";
+    width: 101%;
+    height: 4px;
+    left: 0px;
+    bottom: -32.5px;
+    border-radius: 10px;
+    background: var(--hover-color);
+}
+
+.header-nav__link-portfolio--overlay::after {
+    position: absolute;
+    bottom: -32px;
+    left: -1px;
+    content: "";
+    width: 101%;
+    height: 4px;
+    left: 0px;
+    bottom: -32.5px;
+    border-radius: 10px;
+    background: var(--hover-color);
+}

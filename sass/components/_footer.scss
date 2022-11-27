@@ -1,0 +1,20 @@
+.footer-wrap {
+    background: var(--background-color);
+}
+
+.footer-box {
+    display: flex;
+}
+
+.footer-social-media {
+    padding-bottom: 100px;
+    padding-top: 72px;
+}
+
+.footer-social-media__title {
+    color: var(--color-white);
+    line-height: 1.12;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
