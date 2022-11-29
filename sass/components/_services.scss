@@ -8,7 +8,7 @@
         display: none
     }
     @media screen and (min-width: 768px) {
-        display: none
+        display: none;
     }
     @media screen and (min-width: 1200px) {}
 }
@@ -59,16 +59,23 @@
         margin-right: 15px;
         list-style-type: none;
     }
-    @media screen and (min-width: 768px) {}
+    @media screen and (min-width: 768px) {
+        list-style: none;
+        flex-basis: calc((100% - 60px) / 2);
+    }
     @media screen and (min-width: 1200px) {}
 }
 
-// .services__list {
-//     @media screen and (min-width: 480px) {}
-//     @media screen and (min-width: 768px) {}
-//     display: flex;
-//     @media screen and (min-width: 1200px) {}
-// }
+.services__list {
+    @media screen and (min-width: 480px) {}
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    @media screen and (min-width: 1200px) {}
+}
+
 // .services__list {
 //     display: flex;
 //     list-style-type: none;
