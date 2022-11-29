@@ -15,6 +15,16 @@
     }
 }
 
+.footer-wrap {
+    @media screen and (min-width: 480px) {
+        background: var(--background-color);
+    }
+    @media screen and (min-width: 768px) {}
+    @media screen and (min-width: 1200px) {
+        width: 696px;
+    }
+}
+
 // .footer-wrap {
 //     background: var(--background-color);
 // }

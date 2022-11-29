@@ -1,6 +1,7 @@
 .footer-box {
     @media screen and (min-width: 480px) {
         background: var(--background-color);
+        background-size: cover;
         display: flex;
         flex-direction: column;
         justify-content: center;
