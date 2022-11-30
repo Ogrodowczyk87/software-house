@@ -58,6 +58,9 @@
     &:hover {
         color: var(--hover-color);
     }
+    &:first-child {
+        margin-right: 30px;
+    }
 }
 
 .header-nav2__icon {
