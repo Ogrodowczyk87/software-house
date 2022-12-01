@@ -1,3 +1,4 @@
+// <============== footer ==============>
 .footer-wrap {
     background: var(--background-color);
 }
@@ -18,4 +19,110 @@
     font-size: 14px;
     text-transform: uppercase;
     margin: 0 0 20px;
+}
+
+// <============== footer address==============>
+.address__text {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.7;
+    margin: 0;
+    font-style: normal;
+    color: var(--color-white)
+}
+
+.address__list {
+    list-style-type: none;
+}
+
+.address__item {
+    margin-top: 9px;
+}
+
+.address__link {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 00.03em;
+    font-style: normal;
+    color: var(--light-grey-2);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        color: var(--hover-color);
+    }
+}
+
+// <============== footer logo ==============>
+.footer-logo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-right: 70px;
+}
+
+.footer-logo__footer-web {
+    color: var(--hover-color);
+}
+
+.footer-logo__footer-studio {
+    color: var(--color-white);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+        color: var(--hover-color);
+    }
+}
+
+// <============== footer newsletter ==============>
+.newslatter {
+    margin-left: 78px;
+    align-items: center;
+    margin-top: 72px;
+}
+
+.newslatter__body {
+    display: flex;
+    margin-top: 20px;
+}
+
+.newslatter__title {
+    color: var(--color-white);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-transform: uppercase;
+}
+
+.newslatter__imput {
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: var(--background-color);
+    color: var(--color-grey);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding-left: 16px;
+}
+
+.newslatter__button {
+    display: flex;
+    align-items: center;
+    background-color: var(--hover-color);
+    border: none;
+    border-radius: 4px;
+    margin-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 42px;
+    padding-right: 28px;
+    gap: 28px;
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    white-space: nowrap;
+}
+
+.newslatter__vsg {
+    fill: var(--color-white);
+    width: 24px;
+    height: 24px;
 }
