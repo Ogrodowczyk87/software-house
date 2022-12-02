@@ -1,4 +1,4 @@
-.header-nav__link-agency--overlay::after {
+.header-nav__link--active::after {
     position: absolute;
     bottom: -32px;
     left: -1px;
@@ -11,7 +11,7 @@
     background: var(--hover-color);
 }
 
-.header-nav__link-portfolio--overlay::after {
+.header-nav__link--active--overlay::after {
     position: absolute;
     bottom: -32px;
     left: -1px;

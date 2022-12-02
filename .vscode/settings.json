@@ -10,6 +10,5 @@
     "/**/node_modules/**",
     "/.vscode/**"
   ],
-  "liveSassCompile.settings.generateMap": true,
-  "liveServer.settings.port": 5501
+  "liveSassCompile.settings.generateMap": true
 }
