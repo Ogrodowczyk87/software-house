@@ -77,6 +77,9 @@
     line-height: 1.16;
     letter-spacing: 0.01em;
     margin-bottom: 4px;
+    @media screen and (min-width: $desktop) {
+        font-size: 14px;
+    }
 }
 
 .modal-textarea__textarea {
