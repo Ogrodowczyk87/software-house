@@ -10,32 +10,25 @@
 }
 
 .backdrop__button {
-    width: 30px;
-    height: 30px;
     display: flex;
-    position: absolute;
     align-items: center;
+    position: absolute;
     right: 8px;
     top: 8px;
-    cursor: pointer;
     background-color: var(--color-white);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    transition-property: fill;
     transition-duration: 250ms;
-    // transition: cubic-bezier(0.4, 0, 0.2, 1);
-    // &:hover .backdrop-vsg,
-    // &:focus .backdrop-vsg {
-    //     fill: var(--hover-color);
-    // }
-}
-
-.backdrop-vsg {
-    position: absolute;
-    left: 8px;
-    right: 8px;
-    transition: cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover .backdrop-vsg,
-    &:focus .backdrop-vsg {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
         fill: var(--hover-color);
     }
+}
+
+.backdrop__vsg {
+    width: 21px;
+    height: 21px;
+    padding: 5px;
 }
