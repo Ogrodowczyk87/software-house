@@ -2,10 +2,15 @@
 .socials-media {
     margin-top: 16px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     fill: var(--light-grey-2);
     gap: 10px;
     margin-left: 32px;
     cursor: pointer;
+    @media screen and (min-width: $desktop) {
+        margin-inline: 0 auto;
+    }
 }
 
 .socials-media__link {
