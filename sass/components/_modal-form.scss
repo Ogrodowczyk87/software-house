@@ -10,15 +10,18 @@
 }
 
 .label__input {
-    display: flex;
-    width: 448px;
+    border: 1px solid var(--light-grey-2);
+    width: 100%;
     height: 40px;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
     border: 1px solid var(--light-grey-2);
     border-radius: 4px;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding-left: 40px;
+    padding: 12px 12px 12px 40px;
+    margin-bottom: 10px;
     outline: none;
-    padding-bottom: 4px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:focus {
         border: 1px solid var(--hover-color);
     }
@@ -68,24 +71,37 @@
 }
 
 .modal-textarea__label {
-    font-size: 12px;
     color: var(--color-grey);
-    margin-top: 10px;
+    display: block;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
     margin-bottom: 4px;
 }
 
 .modal-textarea__textarea {
-    width: 448px;
-    height: 120px;
-    border: 1px var(--light-grey-2) solid;
-    border-radius: 4px;
+    padding: 0;
     resize: none;
-    padding-block: 12px;
-    padding-inline: 16px;
-    outline: none;
+    width: 100%;
+    height: 120px;
+    font-weight: 400;
     font-size: 12px;
-    line-height: 1.71;
-    color: var(--light-grey-2)
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    border: 1px solid var(--light-grey-2);
+    border-radius: 4px;
+    padding: 12px 16px;
+    outline: none;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &::placeholder {
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.01em;
+        color: ar(--light-grey-2);
+    }
+    &:focus {
+        border: 1px solid var(--hover-color);
+    }
 }
 
 .modal-checkbox {
