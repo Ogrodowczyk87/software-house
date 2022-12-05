@@ -1,9 +1,53 @@
-// <============== our team ==============>
-.our-clients {
-    padding-block: 94px;
+// <============== our clients ==============>
+.our-clients__body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    margin: auto;
+}
+
+.our-clients__link {
+    display: flex;
+    display: inline-block;
+    border: 1px solid var(--light-grey-2);
+    border-radius: 4px;
+    cursor: pointer;
+    flex-basis: calc((100% - 30px) / 2);
+    min-width: 140px;
+    fill: var(--color-grey);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        border-color: var(--hover-color);
+        fill: var(--color-grey)
+    }
+}
+
+.our-clients__icon {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+@media screen and (min-width: $tablet) {
+    .our-clients__body {
+        width: 100%;
+    }
+    .our-clients__link {
+        flex-basis: calc((100% - 60px) / 3);
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .our-clients__link {
+        flex-basis: calc((100% - 150px) / 6);
+    }
 }
 
 .our-clients__title {
+    justify-items: center;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -13,30 +57,4 @@
     color: var(--color-black);
     line-height: 1.6;
     text-align: center;
-}
-
-.our-clients__list {
-    display: flex;
-    list-style-type: none;
-    gap: 30px;
-    cursor: pointer;
-}
-
-.our-clients__item {
-    display: flex;
-    width: 170px;
-    height: 92px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: solid 1px var(--light-grey-2);
-    border-radius: 4px;
-    fill: var(--color-grey);
-    &:hover,
-    &focus {
-        fill: var(--hover-color);
-        transition: all 0.2s;
-        border: solid 1px var(--hover-color);
-        border-radius: 4px;
-    }
 }

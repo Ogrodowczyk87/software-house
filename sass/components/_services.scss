@@ -1,58 +1,68 @@
-// <============== services list ==============>
-.services__title {
-    display: none;
-}
-
-.services__list {
-    display: flex;
-    list-style-type: none;
-    gap: 30px;
-    margin-bottom: 30px;
-}
-
-.services-list__vsg {
-    width: 270px;
-    height: 120px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-light-grey);
-    border-radius: 4px;
-}
-
-.services {
-    padding-block: 94px;
-}
-
-// <============== services list 2 ==============>
-// .services2__list {
-//     list-style-type: none;
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: center;
-//     gap: 30px;
-//     margin-bottom: 94px;
-// }
-// .services2__item {
-//     min-width: 270px;
-//     flex-basis: calc((100% - 90px) / 4);
-//     font-size: 24px;
-// }
-.services-list__title {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    margin-top: 30px;
-}
-
-.services-list__descripiton {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    color: var(--color-grey);
-}
+            // <============== services list ==============>
+            .services__title {
+                display: none;
+            }
+            
+            .services__list {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 30px;
+                @media screen and (min-width: $tablet) {
+                    width: 768px;
+                }
+                @media screen and (min-width: $desktop) {
+                    width: 1200px;
+                }
+            }
+            
+            .services-list__item {
+                width: 100%;
+                list-style-type: none;
+            }
+            
+            .services-list__body {
+                background-color: var(--color-light-grey);
+                border-radius: 4px;
+                padding: 25px 0;
+                margin-bottom: 30px;
+            }
+            
+            .services-list__icon {
+                display: block;
+                margin: 0 auto;
+            }
+            
+            .services-list__title {
+                text-align: center;
+                margin: 0 0 10px;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 1.14;
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+            }
+            
+            .services-list__descripiton {
+                margin: 0;
+                font-size: 14px;
+                line-height: 1.71;
+                letter-spacing: 0.03em;
+                color: var(--color-grey);
+            }
+            
+            @media screen and (min-width: $tablet) {
+                .services-list__item {
+                    width: 100%;
+                    flex-basis: calc((100% - 30px) / 2);
+                }
+                .services-list__title {
+                    text-align: left;
+                }
+            }
+            
+            @media screen and (min-width: $desktop) {
+                .services-list__item {
+                    flex-basis: calc((100% - 90px) / 4);
+                }
+            }

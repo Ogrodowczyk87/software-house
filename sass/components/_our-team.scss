@@ -1,54 +1,65 @@
-// <============== our team ==============>
-.our-team {
-    background-color: var(--color-light-grey);
-    padding-block: 94px;
-}
-
-.our-team__title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    margin-bottom: 50px;
-    margin-top: 0;
-    letter-spacing: 0.03em;
-    color: var(--color-black);
-    line-height: 1.6;
-    text-align: center;
-}
-
-.our-team__list {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-}
-
-.our-team__item {
-    flex-basis: calc((100% - 90px) / 4);
-    background: var(--color-white);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    padding-bottom: 30px;
-}
-
-.our-team__name {
-    padding-top: 30px;
-    font-style: normal;
-    font-size: 16px;
-    letter-spacing: 0.03em;
-    color: var(--color-black);
-    line-height: 1.1;
-    text-align: center;
-    margin: 0 0 16px;
-}
-
-.our-team__profession {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.03em;
-    color: var(--color-grey);
-    line-height: 1.1;
-    text-align: center;
-}
+    // <============== our team ==============>
+    .our-team__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        list-style: none;
+    }
+    
+    .our-team__item {
+        width: 100%;
+        padding-bottom: 30px;
+        background: var(--color-white);
+        box-shadow: 0px 1px 3px rgba(0 0 0 / 0.12), 0px 1px 1px rgba(0 0 0 / 0.14), 0px 2px 1px rgba(0 0 0 / 0.2);
+        border-radius: 0px 0px 4px 4px;
+    }
+    
+    .our-team__img {
+        display: block;
+        margin-bottom: 30px;
+        width: 100%;
+        height: auto;
+    }
+    
+    .our-team__name {
+        margin: 0 0 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+    
+    .our-team__profession {
+        margin: 0 0 16px;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--color-grey);
+    }
+    
+    @media screen and (min-width: $tablet) {
+        .our-team__item {
+            width: calc((100% - 30px) / 2);
+        }
+    }
+    
+    @media screen and (min-width: $desktop) {
+        .our-team__item {
+            flex-basis: calc((100% - 90px) / 4);
+        }
+    }
+    
+    .our-team__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        margin-bottom: 50px;
+        margin-top: 0;
+        letter-spacing: 0.03em;
+        color: var(--color-black);
+        line-height: 1.6;
+        text-align: center;
+    }
