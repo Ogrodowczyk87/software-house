@@ -12,8 +12,11 @@
                         width: 90%;
                     }
                     @media screen and (min-width: $mobile) {
-                        width: 528px;
                         height: 581px;
+                    }
+                    @media screen and (min-width: $tablet) {
+                        height: 581px;
+                        max-width: 581px;
                     }
                     @media screen and (min-width: $desktop) {
                         width: 528px;
