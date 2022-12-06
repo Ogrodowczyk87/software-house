@@ -25,6 +25,10 @@
     &:focus {
         fill: var(--hover-color);
     }
+    @media screen and (min-width: 420px) {
+        right: 18px;
+        top: 8px;
+    }
 }
 
 .backdrop__vsg {
