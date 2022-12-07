@@ -26,6 +26,14 @@
                 border-radius: 4px;
                 padding: 25px 0;
                 margin-bottom: 30px;
+                @media screen and (min-width: 768px) {
+                    width: 354px;
+                    height: 120px;
+                }
+                @media screen and (min-width: $desktop) {
+                    width: 270px;
+                    height: 120px;
+                }
             }
             
             .services-list__icon {

@@ -28,7 +28,10 @@
 .our-clients__icon {
     display: block;
     margin: auto;
-    width: 100%;
+    &:hover,
+    &:focus {
+        fill: var(--hover-color)
+    }
 }
 
 @media screen and (min-width: $tablet) {
