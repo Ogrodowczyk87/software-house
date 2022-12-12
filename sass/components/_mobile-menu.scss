@@ -13,6 +13,9 @@
  
  .mobile-container {
      margin-left: 40px;
+     display: flex;
+     flex-direction: column;
+     height: 100vh;
  }
  
  .d-none {
@@ -52,7 +55,7 @@
  
  .mobile-menu__list {
      list-style-type: none;
-     margin-bottom: 302px;
+     margin-bottom: auto;
  }
  
  .mobile-menu__contact {
