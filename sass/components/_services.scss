@@ -2,45 +2,49 @@
             .services__title {
                 display: none;
             }
-            
+
             .services__list {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
                 gap: 30px;
+
                 @media screen and (min-width: $tablet) {
                     width: 100%;
                 }
+
                 @media screen and (min-width: $desktop) {
                     width: 1200px;
                 }
             }
-            
+
             .services-list__item {
                 width: 100%;
                 list-style-type: none;
             }
-            
+
             .services-list__body {
                 background-color: var(--color-light-grey);
                 border-radius: 4px;
                 padding: 25px 0;
                 margin-bottom: 30px;
+
                 @media screen and (min-width: 768px) {
                     width: 354px;
                     height: 120px;
                 }
+
                 @media screen and (min-width: $desktop) {
                     width: 270px;
                     height: 120px;
                 }
             }
-            
+
             .services-list__icon {
                 display: block;
                 margin: 0 auto;
             }
-            
+
             .services-list__title {
                 text-align: center;
                 margin: 0 0 10px;
@@ -50,25 +54,27 @@
                 letter-spacing: 0.03em;
                 text-transform: uppercase;
             }
-            
+
             .services-list__descripiton {
                 margin: 0;
                 font-size: 14px;
                 line-height: 1.71;
                 letter-spacing: 0.03em;
                 color: var(--color-grey);
+
             }
-            
+
             @media screen and (min-width: $tablet) {
                 .services-list__item {
                     width: 100%;
                     flex-basis: calc((100% - 30px) / 2);
                 }
+
                 .services-list__title {
                     text-align: left;
                 }
             }
-            
+
             @media screen and (min-width: $desktop) {
                 .services-list__item {
                     flex-basis: calc((100% - 90px) / 4);
